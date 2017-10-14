@@ -41,6 +41,22 @@ body a:hover{
   color: white;
   font-weight: 200;
 }
+.going {
+  float:left;
+  margin-left: 5%;
+  border-radius: 5px;
+}
+.not-going {
+  float:right;
+  margin-right: 5%;
+  border-radius: 5px;
+}
+.yesno {
+  position: relative;
+  height: 35px;
+  padding-top: 2px;
+  border-top: 2px solid #888;
+}
 
 /*--Head-Starts--*/
 .head {
