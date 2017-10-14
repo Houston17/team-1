@@ -472,11 +472,79 @@ span.menu{
 }
 .event {
     background: rgba(93, 92, 92, 0.06);
-    padding: 15px 20px;
+
 }
+
+.container table {
+  width: 60%;
+  margin: 0 auto;
+}
+
+
 .event-left{
 	position:relative;
 }
+
+.evt {
+  border: 1px solid #99cc99;
+  border-radius: 5px;
+  background-color: #bbeebb;
+}
+
+.evt-pic {
+  float: left;
+  background-color: #bbeebb;
+  border-radius: 2px;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.evt-pic img {
+  width: 3em;
+  height: auto;
+  padding: 5%;
+}
+
+.evt-head {
+  background-color: #99cc99;
+}
+
+.evt-top {
+  background-color: #99cc99;
+}
+
+.evt-bottom {
+  clear: both;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.evt-bottom h4 {
+}
+
+.evt-date {
+  text-align: right;
+  color: white;
+  font-size: .9em;
+  margin-right: 3px;
+  font-weight: bold;
+}
+
+.evt-loc {
+  font-size: .8em;
+  margin-top: -2%;
+}
+
+.evt-head {
+  background-color: #99cc99;
+
+}
+
+tr .evt {
+  margin: 0 auto;
+}
+
 .date {
     position: absolute;
     top: 0px;
