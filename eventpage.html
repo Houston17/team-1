@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SEARCH Homless</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" language="javascript" ></script>
+		<script src="js/appParse.js" type="text/javascript" language="javascript" ></script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+</head>
+
+
+<body>
+	
+	<!--header-->
+	<div class="header" id="home">
+		<div class="container">
+			<div class="header-main">
+				<div class="logo">
+					<a href="home.html"><img src="images/search-header-logo-vert.png" class="img-responsive" alt="f" width="55" height="55"></a>
+				</div>
+				<div class="head-right">
+					<div class="top-nav">
+						<span class="menu"><img src="images/nav-icon.png" alt=""> </span>
+						<ul>
+							<li><a href="home.html"  class="active"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+							<li><a href="template.html"><span class="glyphicon glyphicon-user"></span>My Page</a></li>
+							<li><a href="action.html"><span class="glyphicon glyphicon-certificate"></span>Action Page</a></li>
+							<li><a href="events.html"><span class="glyphicon glyphicon-calendar"></span>Event Page</a></li>
+							<li><a href="galleryPost.html"><span class="glyphicon glyphicon-film"></span>Gallery</a></li>
+							<li><a href="index.html"><span class="glyphicon glyphicon-remove-sign"></span>Logout</a></li>
+							<div class="clearfix"> </div>
+						</ul>
+						<!--script-->
+					<script>
+						$("span.menu").click(function(){
+							$(".top-nav ul").slideToggle(500, function(){
+							});
+						});
+					</script>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//header-->
+
+	<div class="contact">
+		<div class="container">
+			<div class="contact-top heading">
+				<h2><u>Run for a Reason 2017</u></h2>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6 event-left">
+		<img src="images/run.jpg" alt="" />
+			<div class="event">
+				<h4>Run for a Reason 2017</h4>
+				<p> SEARCH is excited to be an official charity for the 2017-2018 Chevron Houston Marathon Run for a Reason Program. Run for a Reason offers alternative ways to enter the marathon and half marathon races through the “HEROES” charity entries, and “Fundraise for Registration” options.</p>
+			</div>
+			<div class="date">
+				<p>Oct 14,2017</p>
+			</div>
+	</div>
+	<div class="contact">
+		<div class="container">
+			<div class="contact-top heading">
+				<h2><u>Event Discussion Board</u></h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+			<div class="row-fluid">
+				<table class="table table-bordered table-striped">
+					<thead>
+						<tr>
+							<th>
+								Username:
+							</th>
+							<th>
+								Usman Farooqi
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td colspan="2">Usman: Hey Guys can anyone car pool to the event?</td>
+						</tr>
+						<tr>
+							<td colspan="2">Kelly: I cant, Im sorry</td>
+						</tr>
+						<tr>
+							<td colspan="2">Max: I can!</td>
+						</tr>
+						<tr>
+							<td colspan="2">Usman: Great!</td>
+						</tr>
+						<tr>
+							<td colspan="2"><input style="width: 330px" type="text" name="Message" placeholder="New Message"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<br>
+
+
+
+	<!--footer-starts-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<a href="home.html"><h3>SEARCH HOMELESS</h3></a>
+				<p>Designed by Team #1</p>
+				<a href="#home" class="scroll"><img src="images/top-arrow.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+	<div class="head">
+		<div class="container">
+			<div class="head-top">
+				<div class="col-md-6 h-left">
+					<!--<h4 class="text-blue index-title">SEARCH HOMELESS</h4>-->
+				</div>
+				<div class="col-md-6 h-right">
+					<ul class="icons">
+						<li><a href="#"><span class="fb"> </span></a></li>
+						<li><a href="#"><span class="twit"> </span></a></li>
+						<li><a href="#"><span class="pin"> </span></a></li>
+						<li><a href="#"><span class="rss"> </span></a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--footer-end-->
+</body>
+</html>
