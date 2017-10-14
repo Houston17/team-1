@@ -577,6 +577,7 @@ h3.ghj {
 /*--gallery-starts--*/
 .gallery{
 	padding:6em 0px;
+    padding-top: 0px !important;
 }
 .gallery-bottom{
 	margin-top:4%;
