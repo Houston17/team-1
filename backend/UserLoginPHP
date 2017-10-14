@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Database</title>
+</head>
+<body>
+<form action="insert.php" method="post">
+First name : <input type="text" name="fname"><br/>
+Last name : <input type="text" name="lname"><br/>
+Email : <input type="text" name="email">
+Age : <input type=
+<br/>
+<input type="submit" value="insert">
+
+
+</form>
+
+</body>
+</html>
+this is insert.php
+<?php
+$con = mysqli_connect('vdb.cqti7pvlf6ly.us-east-2.rds.amazonaws.com','team1','codeforgood1');
+if(!$con)
+{
+ echo 'Not Connected To Server';
+}
+if (!mysqli_select_db ($con,'tutorial'))
+{
+ echo 'Database Not Selected';
+}
+
+$Name = $_POST['username'];
+$Email = $_POST[('email')];,
+
+
+$sql = "insert into person (Name,Email) values ('$Name','$Email')";
+
+if (!mysqli_query($con,$sql))
+{
+ echo 'Not Inserted';
+}
+
+else
+{
+ echo 'Inserted Successfully';
+}
+
+header("refresh:2; url=index.html");
+
+
+?>﻿
