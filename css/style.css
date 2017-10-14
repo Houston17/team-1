@@ -851,9 +851,14 @@ figure.effect-oscar:hover img {
     -moz-transition: 0.5s all ease;
     -o-transition: 0.5s all ease;
     -ms-transition: 0.5s all ease;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*--contact-ends--*/
 /*--about-starts--*/
+.donation{
+  text-align: center;
+}
 .about{
 	padding:6em 0px;
 }
