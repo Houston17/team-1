@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" language="javascript" ></script>
-		<script src="js/appParse.js" type="text/javascript" language="javascript" ></script>
+<script src="js/appParse.js" type="text/javascript" language="javascript" ></script>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <script src="js/jquery.min.js"></script>
@@ -19,7 +19,12 @@
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
 			});
-		</script>
+
+function addComment() {
+    $("#comment-board").append("<tr><td colspan=\"2\">Usman: " + $('input:text').val() + "</td></tr>");
+		$('input:text').val('');
+}
+</script>
 </head>
 
 
@@ -86,11 +91,11 @@
 
 	<div class="container-fluid">
 			<div class="row-fluid">
-				<table class="table table-bordered table-striped">
+				<table id="comment-board" class="table table-bordered table-striped">
 					<thead>
 						<tr>
 							<th>
-								Username:
+								User:
 							</th>
 							<th>
 								Usman Farooqi
@@ -110,11 +115,14 @@
 						<tr>
 							<td colspan="2">Usman: Great!</td>
 						</tr>
-						<tr class="tb">
-							<td colspan="2"><input style="width: 330px" type="text" name="Message" placeholder="New Message"></td>
-						</tr>
+
 					</tbody>
 				</table>
+				<form class="" method="post">
+					<input id="com" style="width: 330px" type="text" name="Message" placeholder="New Message">
+					<button type="button" name="button" onclick="addComment();">Post</button>
+				</form>
+
 			</div>
 		</div>
 		<br>
