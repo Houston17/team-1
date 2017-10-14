@@ -37,6 +37,11 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
+.index-title {
+  color: white;
+  font-weight: 200;
+}
+
 /*--Head-Starts--*/
 .head {
     padding: 18px 0px;
@@ -124,7 +129,7 @@ body a:hover{
 .top-nav ul li  a {
 	display: inline-block;
 	color: #99cc99;
-	text-decoration: none;		
+	text-decoration: none;
 	font-size: 1.02em;
 	margin: 0em 0em 0 2em;
 }
@@ -613,7 +618,7 @@ h3.ghj {
 
 .grid figure figcaption::before,
 .grid figure figcaption::after {
-	
+
 }
 
 .grid figure figcaption,
@@ -649,7 +654,7 @@ h3.ghj {
 /*---------------*/
 /***** Oscar *****/
 /*---------------*/
-figure.effect-oscar {	
+figure.effect-oscar {
 }
 figure.effect-oscar img {
 	opacity: 0.9;
@@ -840,7 +845,7 @@ figure.effect-oscar:hover img {
 @media (max-width:1600px){
 a.tooltips span:before {
     border-left: 396px solid transparent;
-}	
+}
 .tool {
     top: 100px;
     left: -37.1%;
@@ -852,7 +857,7 @@ a.tooltips span:before {
 @media (max-width:1440px){
 .banner {
     min-height: 595px;
-}	
+}
 .banner-text {
     margin-top: 23%;
 }
@@ -876,7 +881,7 @@ a.tooltips span:before {
 }
 .banner-text h3 {
     font-size: 1.9em;
-}	
+}
 .banner-text p {
     font-size: 1.55em;
 }
@@ -925,7 +930,7 @@ a.tooltips span:before {
 }
 .help-right h5 {
     font-size: 20px;
-}	
+}
 .heading h2, .heading h3 {
     font-size: 2.35em;
 }
@@ -951,7 +956,7 @@ a.tooltips span:before {
 }
 .banner-text {
     width: 45%;
-}	
+}
 .banner-text p {
     font-size: 1.45em;
     padding: 6px 39px;
@@ -979,7 +984,7 @@ a.tooltips span:before {
 @media (max-width:1024px){
 .head {
     padding: 13px 0px;
-}	
+}
 .headdings, .Buttons, .progress-bars, .alerts, .bread-crumbs, .pagenatin, .appearance, .distracted {
     padding: 1em 0;
 }
@@ -1164,7 +1169,7 @@ a.tooltips span:before {
     width: 50%;
     float: left;
 	padding: 0;
-}	
+}
 .contact {
     padding: 3em 0px 3em 0px;
 }
@@ -1300,7 +1305,7 @@ a.tooltips span:before {
 }
 .letter-bottom form input[type="text"] {
     padding: 8px 10px;
-}	
+}
 .letter-bottom form input[type=submit] {
     padding: 7px 30px;
 }
@@ -1327,12 +1332,12 @@ a.tooltips span:before {
 @media (max-width:736px){
 .banner-text {
     width: 47%;
-}	
+}
 }
 @media (max-width:667px){
 .banner-text {
     width: 51%;
-}	
+}
 }
 @media (max-width:640px){
 .h-left p {
@@ -1503,7 +1508,7 @@ figure.effect-oscar figcaption {
 @media (max-width:600px){
 .banner-text {
     width: 55%;
-}	
+}
 }
 @media (max-width:480px){
 .h-left p {
@@ -1688,7 +1693,7 @@ figure.effect-oscar figcaption {
 @media (max-width:414px){
 .banner-text {
     width: 65%;
-}	
+}
 }
 @media (max-width:384px){
 .banner-text {
@@ -1700,7 +1705,7 @@ figure.effect-oscar figcaption {
     width: 14px;
     height: 14px;
     background-size: 400%;
-}	
+}
 .h-right ul li a span.twit {
     background-position: -14px 0px;
 }
