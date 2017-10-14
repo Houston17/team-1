@@ -1092,6 +1092,7 @@ body {
   color: #333;
   background-color: #fff;
 }
+
 input,
 button,
 select,
@@ -1442,9 +1443,10 @@ dd {
 }
 dt {
   font-weight: bold;
+  margin-left: 35px;
 }
 dd {
-  margin-left: 0;
+  /*margin-left: 0;*/
 }
 @media (min-width: 768px) {
   .dl-horizontal dt {

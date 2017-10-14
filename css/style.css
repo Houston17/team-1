@@ -41,6 +41,22 @@ body a:hover{
   color: white;
   font-weight: 200;
 }
+.going {
+  float:left;
+  margin-left: 5%;
+  border-radius: 5px;
+}
+.not-going {
+  float:right;
+  margin-right: 5%;
+  border-radius: 5px;
+}
+.yesno {
+  position: relative;
+  height: 35px;
+  padding-top: 2px;
+  border-top: 2px solid #888;
+}
 
 /*--Head-Starts--*/
 .head {
@@ -278,7 +294,6 @@ span.menu{
     border: 1px solid #fff;
     font-size: 13px;
     margin: 0;
-    border-right: none;
     margin-right: -4px;
 }
 .letter-bottom form input[type=submit] {
@@ -472,11 +487,79 @@ span.menu{
 }
 .event {
     background: rgba(93, 92, 92, 0.06);
-    padding: 15px 20px;
+
 }
+
+.container table {
+  width: 60%;
+  margin: 0 auto;
+}
+
+
 .event-left{
 	position:relative;
 }
+
+.evt {
+  border: 1px solid #99cc99;
+  border-radius: 5px;
+  background-color: #bbeebb;
+}
+
+.evt-pic {
+  float: left;
+  background-color: #bbeebb;
+  border-radius: 2px;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.evt-pic img {
+  width: 3em;
+  height: auto;
+  padding: 5%;
+}
+
+.evt-head {
+  background-color: #99cc99;
+}
+
+.evt-top {
+  background-color: #99cc99;
+}
+
+.evt-bottom {
+  clear: both;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.evt-bottom h4 {
+}
+
+.evt-date {
+  text-align: right;
+  color: white;
+  font-size: .9em;
+  margin-right: 3px;
+  font-weight: bold;
+}
+
+.evt-loc {
+  font-size: .8em;
+  margin-top: -2%;
+}
+
+.evt-head {
+  background-color: #99cc99;
+
+}
+
+tr .evt {
+  margin: 0 auto;
+}
+
 .date {
     position: absolute;
     top: 0px;
@@ -577,6 +660,7 @@ h3.ghj {
 /*--gallery-starts--*/
 .gallery{
 	padding:6em 0px;
+    padding-top: 0px !important;
 }
 .gallery-bottom{
 	margin-top:4%;
@@ -782,9 +866,19 @@ figure.effect-oscar:hover img {
     -moz-transition: 0.5s all ease;
     -o-transition: 0.5s all ease;
     -ms-transition: 0.5s all ease;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*--contact-ends--*/
 /*--about-starts--*/
+.donation{
+  text-align: center;
+}
+.fucking-center {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}
 .about{
 	padding:6em 0px;
 }
