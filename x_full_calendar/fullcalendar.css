@@ -9,19 +9,19 @@
 	direction: ltr;
 	text-align: left;
 	}
-	
+
 .fc table {
 	border-collapse: collapse;
 	border-spacing: 0;
 	}
-	
+
 html .fc,
 .fc table {
 	font-size: 1em;
 	font-family: "Helvetica Neue",Helvetica;
 
 	}
-	
+
 .fc td,
 .fc th {
 	padding: 0;
@@ -42,22 +42,22 @@ html .fc,
 	width: 25%;
 	text-align: left;
 }
-	
+
 .fc-header-center {
 	text-align: center;
 	}
-	
+
 .fc-header-right {
 	width: 25%;
 	text-align: right;
 	}
-	
+
 .fc-header-title {
 	display: inline-block;
 	vertical-align: top;
 	margin-top: -5px;
 }
-	
+
 .fc-header-title h2 {
 	margin-top: 0;
 	white-space: nowrap;
@@ -65,34 +65,34 @@ html .fc,
     font-weight: 100;
     margin-bottom: 10px;
 }
-	
+
 .fc .fc-header-space {
 	padding-left: 10px;
 	}
-	
+
 .fc-header .fc-button {
 	margin-bottom: 1em;
 	vertical-align: top;
 	}
-	
+
 /* buttons edges butting together */
 
 .fc-header .fc-button {
 	margin-right: -1px;
 	}
-	
+
 .fc-header .fc-corner-right,  /* non-theme */
 .fc-header .ui-corner-right { /* theme */
 	margin-right: 0; /* back to normal */
 	}
-	
+
 /* button layering (for border precedence) */
-	
+
 .fc-header .fc-state-hover,
 .fc-header .ui-state-hover {
 	z-index: 2;
 	}
-	
+
 .fc-header .fc-state-down {
 	z-index: 3;
 	}
@@ -101,23 +101,23 @@ html .fc,
 .fc-header .ui-state-active {
 	z-index: 4;
 	}
-	
-	
-	
+
+
+
 /* Content
 ------------------------------------------------------------------------*/
-	
+
 .fc-content {
 	clear: both;
 	zoom: 1; /* for IE7, gives accurate coordinates for [un]freezeContentHeight */
 	}
-	
+
 .fc-view {
 	width: 100%;
 	overflow: hidden;
 	}
-	
-	
+
+
 
 /* Cell Styles
 ------------------------------------------------------------------------*/
@@ -127,25 +127,25 @@ html .fc,
 	border: 1px solid #e5e5e5;
 	}
 .fc-widget-header{
-    border-bottom: 1px solid #EEE; 
-}	
+    border-bottom: 1px solid #EEE;
+}
 .fc-state-highlight { /* <td> today cell */ /* TODO: add .fc-today to <th> */
 	/* background: #fcf8e3; */
 }
 
 .fc-state-highlight > div > div.fc-day-number{
-    background-color: #ff3b30;
+    background-color: #2892a6;
     color: #FFFFFF;
     border-radius: 50%;
     margin: 4px;
 }
-	
+
 .fc-cell-overlay { /* semi-transparent rectangle while dragging */
 	background: #bce8f1;
 	opacity: .3;
 	filter: alpha(opacity=30); /* for IE */
 	}
-	
+
 
 
 /* Buttons
@@ -161,7 +161,7 @@ html .fc,
 	white-space: nowrap;
 	cursor: pointer;
 	}
-	
+
 .fc-state-default { /* non-theme */
 	border: 1px solid;
 	}
@@ -192,15 +192,15 @@ html .fc,
 .fc-button-next .fc-text-arrow { /* for &lsaquo; &rsaquo; */
 	font-weight: bold;
 	}
-	
+
 /* icon (for jquery ui) */
-	
+
 .fc-button .fc-icon-wrap {
 	position: relative;
 	float: left;
 	top: 50%;
 	}
-	
+
 .fc-button .ui-icon {
 	position: relative;
 	float: left;
@@ -211,8 +211,8 @@ html .fc,
 
 
 .fc-state-default {
-	border-color: #ff3b30;
-	color: #ff3b30;	
+	border-color: #2892a6;
+	color: #2892a6;
 }
 .fc-button-month.fc-state-default, .fc-button-agendaWeek.fc-state-default, .fc-button-agendaDay.fc-state-default{
     min-width: 67px;
@@ -225,11 +225,11 @@ html .fc,
 .fc-state-active,
 .fc-state-disabled {
 	color: #333333;
-	background-color: #FFE3E3;
+	background-color: #4cc0bb;
 	}
 
 .fc-state-hover {
-	color: #ff3b30;
+	color: #2892a6;
 	text-decoration: none;
 	background-position: 0 -15px;
 	-webkit-transition: background-position 0.1s linear;
@@ -240,7 +240,7 @@ html .fc,
 
 .fc-state-down,
 .fc-state-active {
-	background-color: #ff3b30;
+	background-color: #2892a6;
 	background-image: none;
 	outline: 0;
 	color: #FFFFFF;
@@ -249,14 +249,14 @@ html .fc,
 .fc-state-disabled {
 	cursor: default;
 	background-image: none;
-	background-color: #FFE3E3;
+	background-color: #4cc0bb;
 	filter: alpha(opacity=65);
 	box-shadow: none;
-	border:1px solid #FFE3E3;
-	color: #ff3b30;
+	border:1px solid #4cc0bb;
+	color: white;
 	}
 
-	
+
 
 /* Global Event Styles
 ------------------------------------------------------------------------*/
@@ -269,7 +269,7 @@ html .fc,
 .fc-event-container > .ui-resizable-resizing {
 	z-index: 9;
 	}
-	 
+
 .fc-event {
 	border: 1px solid #FFF; /* default BORDER color */
 	background-color: #FFF; /* default BACKGROUND color */
@@ -295,12 +295,12 @@ html .fc,
 a.fc-event {
 	text-decoration: none;
 	}
-	
+
 a.fc-event,
 .fc-event-draggable {
 	cursor: pointer;
 	}
-	
+
 .fc-rtl .fc-event {
 	text-align: right;
 	}
@@ -311,12 +311,12 @@ a.fc-event,
 	overflow: hidden;
 	line-height: 15px;
 	}
-	
+
 .fc-event-time,
 .fc-event-title {
 	padding: 0 1px;
 	}
-	
+
 .fc .ui-resizable-handle {
 	display: block;
 	position: absolute;
@@ -325,9 +325,9 @@ a.fc-event,
 	font-size: 300%;  /* */
 	line-height: 50%; /* */
 	}
-	
-	
-	
+
+
+
 /* Horizontal Events
 ------------------------------------------------------------------------*/
 
@@ -353,9 +353,9 @@ border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 */
 	}
-	
+
 /* resizable */
-	
+
 .fc-event-hori .ui-resizable-e {
 	top: 0           !important; /* importants override pre jquery ui 1.7 styles */
 	right: -3px      !important;
@@ -363,7 +363,7 @@ border-top-right-radius: 3px;
 	height: 100%     !important;
 	cursor: e-resize;
 	}
-	
+
 .fc-event-hori .ui-resizable-w {
 	top: 0           !important;
 	left: -3px       !important;
@@ -371,33 +371,33 @@ border-top-right-radius: 3px;
 	height: 100%     !important;
 	cursor: w-resize;
 	}
-	
+
 .fc-event-hori .ui-resizable-handle {
 	_padding-bottom: 14px; /* IE6 had 0 height */
 	}
-	
-	
-	
+
+
+
 /* Reusable Separate-border Table
 ------------------------------------------------------------*/
 
 table.fc-border-separate {
 	border-collapse: separate;
 	}
-	
+
 .fc-border-separate th,
 .fc-border-separate td {
 	border-width: 1px 0 0 1px;
 	}
-	
+
 .fc-border-separate th.fc-last,
 .fc-border-separate td.fc-last {
 	border-right-width: 1px;
 	}
-	
+
 
 .fc-border-separate tr.fc-last td {
-	
+
 }
 .fc-border-separate .fc-week .fc-first{
     border-left: 0;
@@ -416,8 +416,8 @@ table.fc-border-separate {
 .fc-border-separate tbody tr.fc-first th {
 	border-top-width: 0;
 	}
-	
-	
+
+
 
 /* Month View, Basic Week View, Basic Day View
 ------------------------------------------------------------------------*/
@@ -434,12 +434,12 @@ table.fc-border-separate {
 .fc .fc-week-number div {
 	padding: 0 2px;
 	}
-	
+
 .fc-grid .fc-day-number {
 	float: right;
 	padding: 0 2px;
 	}
-	
+
 .fc-grid .fc-other-month .fc-day-number {
 	opacity: 0.3;
 	filter: alpha(opacity=30); /* for IE */
@@ -447,29 +447,29 @@ table.fc-border-separate {
 	   might want to set the 'color' property instead
 	   making day-numbers bold also fixes the problem */
 	}
-	
+
 .fc-grid .fc-day-content {
 	clear: both;
 	padding: 2px 2px 1px; /* distance between events and day edges */
 	}
-	
+
 /* event styles */
-	
+
 .fc-grid .fc-event-time {
 	font-weight: bold;
 	}
-	
+
 /* right-to-left */
-	
+
 .fc-rtl .fc-grid .fc-day-number {
 	float: left;
 	}
-	
+
 .fc-rtl .fc-grid .fc-event-time {
 	float: right;
 	}
-	
-	
+
+
 
 /* Agenda Week View, Agenda Day View
 ------------------------------------------------------------------------*/
@@ -477,11 +477,11 @@ table.fc-border-separate {
 .fc-agenda table {
 	border-collapse: separate;
 	}
-	
+
 .fc-agenda-days th {
 	text-align: center;
 	}
-	
+
 .fc-agenda .fc-agenda-axis {
 	width: 50px;
 	padding: 0 4px;
@@ -494,67 +494,67 @@ table.fc-border-separate {
 .fc-agenda .fc-week-number {
 	font-weight: bold;
 	}
-	
+
 .fc-agenda .fc-day-content {
 	padding: 2px 2px 1px;
 	}
-	
+
 /* make axis border take precedence */
-	
+
 .fc-agenda-days .fc-agenda-axis {
 	border-right-width: 1px;
 	}
-	
+
 .fc-agenda-days .fc-col0 {
 	border-left-width: 0;
 	}
-	
+
 /* all-day area */
-	
+
 .fc-agenda-allday th {
 	border-width: 0 1px;
 	}
-	
+
 .fc-agenda-allday .fc-day-content {
 	min-height: 34px; /* TODO: doesnt work well in quirksmode */
 	_height: 34px;
 	}
-	
+
 /* divider (between all-day and slots) */
-	
+
 .fc-agenda-divider-inner {
 	height: 2px;
 	overflow: hidden;
 	}
-	
+
 .fc-widget-header .fc-agenda-divider-inner {
 	background: #eee;
 	}
-	
+
 /* slot rows */
-	
+
 .fc-agenda-slots th {
 	border-width: 1px 1px 0;
 	}
-	
+
 .fc-agenda-slots td {
 	border-width: 1px 0 0;
 	background: none;
 	}
-	
+
 .fc-agenda-slots td div {
 	height: 20px;
 	}
-	
+
 .fc-agenda-slots tr.fc-slot0 th,
 .fc-agenda-slots tr.fc-slot0 td {
 	border-top-width: 0;
 	}
-	
+
 .fc-agenda-slots tr.fc-minor th.ui-widget-header {
 	*border-top-style: solid; /* doesn't work with background in IE6/7 */
 	}
-	
+
 
 
 /* Vertical Events
@@ -575,7 +575,7 @@ table.fc-border-separate {
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
 	}
-	
+
 .fc-event-vert .fc-event-time {
 	white-space: nowrap;
 	font-size: 10px;
@@ -585,7 +585,7 @@ table.fc-border-separate {
 	position: relative;
 	z-index: 2;
 	}
-	
+
 .fc-event-vert .fc-event-bg { /* makes the event lighter w/ a semi-transparent overlay  */
 	position: absolute;
 	z-index: 1;
@@ -597,14 +597,14 @@ table.fc-border-separate {
 	opacity: .25;
 	filter: alpha(opacity=25);
 	}
-	
+
 .fc .ui-draggable-dragging .fc-event-bg, /* TODO: something nicer like .fc-opacity */
 .fc-select-helper .fc-event-bg {
 	display: none\9; /* for IE6/7/8. nested opacity filters while dragging don't work */
 	}
-	
+
 /* resizable */
-	
+
 .fc-event-vert .ui-resizable-s {
 	bottom: 0        !important; /* importants override pre jquery ui 1.7 styles */
 	width: 100%      !important;
@@ -616,11 +616,11 @@ table.fc-border-separate {
 	text-align: center;
 	cursor: s-resize;
 	}
-	
+
 .fc-agenda .ui-resizable-resizing { /* TODO: better selector */
 	_overflow: hidden;
 	}
-	
+
 thead tr.fc-first{
     background-color: #f7f7f7;
 }
@@ -635,6 +635,7 @@ table.fc-header{
     min-width: 19px;
     padding: 6px;
     text-align: center;
+		min-height: 120%;
 }
 .fc-sun, .fc-sat{
     color: #b8b8b8;
@@ -647,7 +648,7 @@ table.fc-header{
     transition: background-color 0.2s;
 }
 .fc-week .fc-day.fc-state-highlight:hover .fc-day-number{
-    background-color:  #ff3b30;
+    background-color:  #2892a6;
 }
 .fc-button-today{
     border: 1px solid rgba(255,255,255,.0);
