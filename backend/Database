@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html> Create table 'searchdatabase'.'members'(
 'id' int(11) NOT NULL AUTO_INCREMENT,
-'username' Anshul(30) NOT NULL,
-'password'anshul(50) NOT NULL,
+'firstname' Anshul(15) NOT NULL,
+'lastname' Anshul (15) NOT NULL,
+'email' Anshul (20) NOT NULL,
+'age' INT(3),
+'password'anshul(20) NOT NULL,
 PRIMARY KEY ('id'),
 UNIQUE KEY 'username' ('username')
 ) ENGINE = MYISAM DEFAULT CHARSET = utf8;
